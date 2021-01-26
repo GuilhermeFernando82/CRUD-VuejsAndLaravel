@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Controllers\questionController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -12,7 +12,8 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('{any}', function () {
+    return view('app');
+})->where('any', '.*');
+Route::get('/home', 'App\Http\Controllers\ControllerAsk@index');
+//Route::resource('/home', 'App\Http\Controllers\ControllerAsk');

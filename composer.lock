@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ddeabc1ce42c24615f2fd0343a6ea0f2",
+    "content-hash": "c11cd769d59bc7b9fb60bff1e6c89f3b",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -390,6 +390,62 @@
                 }
             ],
             "time": "2020-11-24T19:55:57+00:00"
+        },
+        {
+            "name": "eelcol/laravel-bootstrap-alerts",
+            "version": "1.0.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/eelcol/laravel-bootstrap-alerts.git",
+                "reference": "986ab743cd8bc0333b6ae49919694f324e7de10d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/eelcol/laravel-bootstrap-alerts/zipball/986ab743cd8bc0333b6ae49919694f324e7de10d",
+                "reference": "986ab743cd8bc0333b6ae49919694f324e7de10d",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/support": "^6.0|^7.0|^8.0",
+                "php": ">=7.2.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Eelcol\\LaravelBootstrapAlerts\\AlertsServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Eelcol\\LaravelBootstrapAlerts\\": "src/"
+                },
+                "files": [
+                    "src/helpers.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Eelco Luurtsema",
+                    "email": "eelcoluurtsema@gmail.com"
+                }
+            ],
+            "description": "Easily implement alert messages in your Bootstrap design using Laravel.",
+            "keywords": [
+                "alerts",
+                "bootstrap",
+                "laravel"
+            ],
+            "support": {
+                "issues": "https://github.com/eelcol/laravel-bootstrap-alerts/issues",
+                "source": "https://github.com/eelcol/laravel-bootstrap-alerts/tree/1.0.7"
+            },
+            "time": "2020-11-05T13:31:20+00:00"
         },
         {
             "name": "egulias/email-validator",
